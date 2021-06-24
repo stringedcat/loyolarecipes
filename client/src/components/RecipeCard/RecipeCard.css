@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  color: white;
+}
+.label {
+  color: azure;
+}
+link {
+  text-decoration: none;
+}
+img {
+  height: auto;
+  width: 20%;
+}
+.containerCard {
+  width: 30rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 3rem 5rem #aaa;
+}
+.recipe img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}

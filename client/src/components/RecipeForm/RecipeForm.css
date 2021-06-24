@@ -1,9 +1,4 @@
-.App {
-  text-align: center;
+body {
   background-image: url("C:\Users\Mauro\Desktop\PI-Food\client\src\assets\fondo.jpg");
   background-size: contain;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }

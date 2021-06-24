@@ -1,0 +1,29 @@
+.h1-landing {
+  float: left;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: left !important;
+  background-color: black;
+  background-size: 50%;
+  font-family: "Bebas Neue", cursive;
+}
+.h2-landing {
+  float: right;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: right !important;
+  background-color: black;
+  background-size: 50%;
+  font-family: "Bebas Neue", cursive;
+}
+.button-landing {
+  background-color: black;
+}
+body {
+  background-image: url("C:\Users\Mauro\Desktop\PI-Food\client\src\assets\fondo_landing.jpg");
+  background-size: cover;
+}

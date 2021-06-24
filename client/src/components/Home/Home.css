@@ -1,0 +1,109 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+button {
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 2px solid white;
+  background-color: #d35400;
+  color: white;
+  font-family: "montserrat";
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+}
+button::before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-color: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+button:hover {
+  background-color: orange;
+}
+
+button:focus {
+  background-color: grey;
+}
+
+a {
+  color: rgb(212, 164, 6);
+  text-decoration: none;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+a.button {
+  color: green;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+span {
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+}
+.containerHome {
+  display: flex;
+}
+p {
+  border-radius: 20px;
+  font-size: 20px;
+  align-items: center;
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+h6 {
+  color: coral;
+}
+
+h3 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+
+RecipeCard {
+  display: flex;
+}
+label {
+  color: white;
+  background-color: black;
+}
+.recipes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.containerCard {
+  width: 30rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  padding: 2rem;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 3rem 5rem #aaa;
+}
+.containerCard img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}

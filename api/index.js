@@ -26,15 +26,15 @@ conn.sync({ force: true }).then(() => {
   server.listen(3001, () => {
     console.log("%s listening at 3001");
     // eslint-disable-line no-console
-    Diet.findOrCreate({ where: { name: "Gluten Free" } });
-    Diet.findOrCreate({ where: { name: "Ketogenic" } });
-    Diet.findOrCreate({ where: { name: "Vegetarian" } });
-    Diet.findOrCreate({ where: { name: "Lacto-Vegetarian" } });
-    Diet.findOrCreate({ where: { name: "Ovo-Vegetarian" } });
-    Diet.findOrCreate({ where: { name: "Vegan" } });
+    Diet.findOrCreate({ where: { name: "gluten free" } });
+    Diet.findOrCreate({ where: { name: "ketogenic" } });
+    Diet.findOrCreate({ where: { name: "vegetarian" } });
+    Diet.findOrCreate({ where: { name: "dairy free" } });
+    Diet.findOrCreate({ where: { name: "lacto ovo vegetarian" } });
+    Diet.findOrCreate({ where: { name: "vegan" } });
     Diet.findOrCreate({ where: { name: "Pescetarian" } });
-    Diet.findOrCreate({ where: { name: "Paleo" } });
-    Diet.findOrCreate({ where: { name: "Primal" } });
-    Diet.findOrCreate({ where: { name: "Whole30" } });
+    Diet.findOrCreate({ where: { name: "paleolithic" } });
+    Diet.findOrCreate({ where: { name: "primal" } });
+    Diet.findOrCreate({ where: { name: "whole 30" } });
   });
 });
