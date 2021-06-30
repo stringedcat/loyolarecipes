@@ -57,22 +57,22 @@ const RecipeForm = () => {
         <div>
             <form onSubmit={(e)=> onSubmit(e)}>
                 <label>Name of the recipe: </label>
-                <input onChange={(e) => handleOnChange(e)} id="name" value={data.name} placeholder ="Your recipe name..." type ="text"></input>
+                <input onChange={(e) => handleOnChange(e)} id="name"  placeholder ="Your recipe name..." type ="text"></input>
                 <br/>
                 <label>Resume of that recipe: </label>
-                <textarea onChange={(e) => handleOnChange(e)} id="summary" value={data.summary} placeholder = "Your summary of recipe" type="text"></textarea>
+                <textarea onChange={(e) => handleOnChange(e)} id="summary"  placeholder = "Your summary of recipe" type="text"></textarea>
                 <br/>
                 <label> Instructions: </label>
-                <textarea onChange={(e) => handleOnChange(e)}id="step_by_step" value={data.step_by_step} placeholder ="Tipe here your step by step of your recipe"rows="5" cols="80"></textarea>
+                <textarea onChange={(e) => handleOnChange(e)}id="step_by_step"  placeholder ="Tipe here your step by step of your recipe"rows="5" cols="80"></textarea>
                 <br/>
                 <label> Paste an url of your recipe: </label>
                 <input onChange={(e) => imageHandler(e)} id="image" placeholder ="Your image" type="text" accept="image/*"/>
                 <br/>
                 <label>Your Score: </label>
-                <input onChange={(e) => handleOnChange(e)} id="rating" value={data.rating}placeholder="Your Score of this recipe" type="number"></input>
+                <input onChange={(e) => handleOnChange(e)} id="rating" placeholder="Your Score of this recipe" type="number"></input>
                 <br/>
                 <label> Level of Healthy: </label>
-                <input onChange={(e) => handleOnChange(e)} id="level_of_healthy" value={data.level_of_healthy}placeholder="Healthy level ?/100" type="number"></input>
+                <input onChange={(e) => handleOnChange(e)} id="level_of_healthy"placeholder="Healthy level ?/100" type="number"></input>
                 <br/>
                 <label>Diets: </label>
              <select onChange={(e) => onChange(e)} id="diets" selected={data.diets}>

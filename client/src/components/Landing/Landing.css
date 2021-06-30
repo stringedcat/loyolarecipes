@@ -26,4 +26,5 @@
 body {
   background-image: url("C:\Users\Mauro\Desktop\PI-Food\client\src\assets\fondo_landing.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }

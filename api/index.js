@@ -32,7 +32,7 @@ conn.sync({ force: true }).then(() => {
     Diet.findOrCreate({ where: { name: "dairy free" } });
     Diet.findOrCreate({ where: { name: "lacto ovo vegetarian" } });
     Diet.findOrCreate({ where: { name: "vegan" } });
-    Diet.findOrCreate({ where: { name: "Pescetarian" } });
+    Diet.findOrCreate({ where: { name: "pescatarian" } });
     Diet.findOrCreate({ where: { name: "paleolithic" } });
     Diet.findOrCreate({ where: { name: "primal" } });
     Diet.findOrCreate({ where: { name: "whole 30" } });
