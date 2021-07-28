@@ -6,8 +6,10 @@
 </p>
 
 # Project about recipes
-Its a apliaction for search recipes, order by type of diet, healthy level, score, and more. Also you can create your own recipe for yourself an you can put your instructions of you recipe!
+Its a apliaction for search recipes, order by type of diet, healthy level, score, and more. Also you can create your own recipe for yourself an you can put your instructions of your recipe!
 
+#Coming soon
+I will able to deploy this project.
 
 ## Tools used
 1) Javascript
