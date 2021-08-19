@@ -30,7 +30,7 @@ const Home = () => {
     } 
     if (recipes.length>0){
       return(
-        <div display="flex" flex-direction="column" class="style.containerHome">
+        <div flex-direction="column" class="style.containerHome">
            {filtro
            ?(recipes.filter(recipe => recipe.diets.includes(filtro)).slice(pageVisited,pageVisited + recipesPerPage)).map(recipe => (  
            <RecipeCard  key ={recipe.id} recipe={recipe} />
@@ -117,7 +117,7 @@ const Home = () => {
 
     console.log(recipes);
     return (
-        <div>
+        <div class="body">
           <div>
           <label> Type of diets: </label>
           <select onChange={(e) => handleInputChangeDiets(e)} id="diets">

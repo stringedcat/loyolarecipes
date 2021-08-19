@@ -98,3 +98,6 @@ label {
   border-radius: 0.5rem;
   object-fit: cover;
 }
+.body {
+  background-image: url("C:\Users\Mauro\Desktop\PI-Food\client\src\assets\fondo.jpg");
+}
