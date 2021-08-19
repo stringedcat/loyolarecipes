@@ -54,7 +54,7 @@ const RecipeForm = () => {
    
     }, [data])
     return (
-        <div>
+        <div class="container">
             <form onSubmit={(e)=> onSubmit(e)}>
                 <label>Name of the recipe: </label>
                 <input onChange={(e) => handleOnChange(e)} id="name"  placeholder ="Your recipe name..." type ="text"></input>
@@ -62,7 +62,7 @@ const RecipeForm = () => {
                 <label>Resume of that recipe: </label>
                 <textarea onChange={(e) => handleOnChange(e)} id="summary"  placeholder = "Your summary of recipe" type="text"></textarea>
                 <br/>
-                <label> Instructions: </label>
+                <label class="label_instructions"> Instructions: </label>
                 <textarea onChange={(e) => handleOnChange(e)}id="step_by_step"  placeholder ="Tipe here your step by step of your recipe"rows="5" cols="80"></textarea>
                 <br/>
                 <label> Paste an url of your recipe: </label>
@@ -87,6 +87,7 @@ const RecipeForm = () => {
                  <option value="whole 30">Whole 30</option>
                  <option value="vegan">Vegan</option>
              </select>
+             <br/>
              <button>Submit</button>
             </form>
             <div className="img-holder">

@@ -2,3 +2,13 @@ body {
   background-image: url("C:\Users\Mauro\Desktop\PI-Food\client\src\assets\fondo.jpg");
   background-size: cover;
 }
+label {
+  width: 240px;
+  display: inline-block;
+  border-radius: 240px;
+}
+.container {
+  margin-top: 9%;
+}
+.label_instructions {
+}

@@ -23,11 +23,12 @@ dispatch(getRecipeDetail(props.match.params.id))
             <h2>{recipe_params.title}</h2>
             <img height="auto"
   width = "30%" src={recipe_params.image}/>
-         <p>Resume:{replace(recipe_params.summary)}</p>
-            <h3>Score of this recipe: {recipe_params.score}</h3>
-            <h3>This is our healthy score: {recipe_params.healthy_score}</h3>
-            <p>Instructions: {replace(recipe_params.step)}</p>
-            <h2>Type of diets: {Join(recipe_params.diets)}</h2>
+         <p>RESUME: {replace(recipe_params.summary)}</p>
+         <p>INSTRUCTIONS: {replace(recipe_params.step)}</p>
+            <h3>SCORE: {recipe_params.score}</h3>
+            <h3>HEALTHY SCORE: {recipe_params.healthy_score}</h3>
+  
+            <h2>DIETS: {Join(recipe_params.diets)}</h2>
         </div>
     )
 }

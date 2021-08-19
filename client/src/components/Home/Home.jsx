@@ -4,7 +4,8 @@ import { getAllRecipes,getAllDiets} from "../../actions/index";
 import React from 'react'
 import RecipeCard from "../RecipeCard/RecipeCard";
 import SearchBar from "../SearchBar/SearchBar";
-import "./Home.css"
+import "./Home.css";
+import loading from '../../assets/loading-food.gif'
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
   
   const ShowData = () =>{
     if(loading){
-      return <p>Loading...</p>
+      return <img src="https://kobu.agency/files/uploads/2018/07/ACW2018-Loader.gif" alt="loading..."/>
     } 
     if (recipes.length>0){
       return(
@@ -119,7 +120,7 @@ const Home = () => {
     return (
         <div class="body">
           <div>
-          <label> Type of diets: </label>
+          <label>Type of diets: </label>
           <select onChange={(e) => handleInputChangeDiets(e)} id="diets">
                <option value="">Default</option>
                  <option value="gluten free">Gluten Free</option>
