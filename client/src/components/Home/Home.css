@@ -67,9 +67,14 @@ h6 {
 
 h3 {
   color: white;
+  background-color: black;
+  border-radius: 100px;
 }
 h2 {
   color: white;
+  background-color: black;
+  align-items: center;
+  border-radius: 100px;
 }
 
 label {
