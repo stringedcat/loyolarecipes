@@ -20,4 +20,4 @@ I will able to deploy this project.
 6) Express.js
 7) Node.js
 8) PostgreSQL
-9) Sequalize
+9) Sequelize
