@@ -23,7 +23,9 @@ dispatch(getRecipeDetail(props.match.params.id))
             <h2>{recipe_params.title}</h2>
             <img height="auto"
   width = "30%" src={recipe_params.image}/>
+  <br/>
          <p>RESUME: {replace(recipe_params.summary)}</p>
+         <br/>
          <p>INSTRUCTIONS: {replace(recipe_params.step)}</p>
             <h3>SCORE: {recipe_params.score}</h3>
             <h3>HEALTHY SCORE: {recipe_params.healthy_score}</h3>
