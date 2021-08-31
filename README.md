@@ -9,7 +9,8 @@
 It's a application for search recipes, order by type of diet, healthy level, score, and more. Also you can create your own recipe for yourself an you can put your instructions of your recipe!
 
 # What you need to see it
-What you need to do to see this project is: 
+What you need to do to see this project is:
+
 Create a .env file in the main folder with your database in PostgreSQL like this:
 
 DB_USER="your user"
