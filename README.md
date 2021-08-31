@@ -6,7 +6,15 @@
 </p>
 
 # Project about recipes
-It's a aplication for search recipes, order by type of diet, healthy level, score, and more. Also you can create your own recipe for yourself an you can put your instructions of your recipe!
+It's a application for search recipes, order by type of diet, healthy level, score, and more. Also you can create your own recipe for yourself an you can put your instructions of your recipe!
+
+# What you need
+What you need to do to see this project is: 
+Create a .env file in the main folder with your database in PostgreSQL like this:
+DB_USER="your user"
+DB_PASSWORD="your password"
+DB_HOST=localhost
+API_KEY="your api key" Here, what you need to do is create an account and  copy the api key in spoonacular api (https://spoonacular.com/food-api)
 
 # Coming soon
 I will able to deploy this project.
