@@ -18,7 +18,7 @@ Create a .env file in the main folder with your database in PostgreSQL like this
 DB_USER="your user"
 DB_PASSWORD="your password"
 DB_HOST=localhost
-API_KEY="your api key" (here, what you need to do is create an account and  copy the api key from spoonacular api (https://spoonacular.com/food-api) 😿).
+API_KEY="your api key" (here, what you need to do is create an account and copy the api key from spoonacular api (https://spoonacular.com/food-api) 😿).
 
 And that's all you will avaliable to see it and try it. If you cannot let me know 🙀. 
 
